@@ -1,0 +1,15 @@
+There are two methods to merge NAMD-REST with NAMD_2.10_Source.
+
+Using the "rest2.patch" file:
+1.  Download and untar NAMD_2.10_Source.tar.gz, for instance into ~/Downloads
+2.  cd ~/Downloads
+3.  git clone https://github.com/sunhwan/NAMD-REST.git
+4.  cp NAMD-REST/rest2.patch ~/Downloads
+5.  patch -p0 < rest2.patch
+6.  Compile NAMD 
+
+Copy-pasting:
+1.  Download and untar NAMD_2.10_Source.tar.gz
+2.  git clone https://github.com/sunhwan/NAMD-REST.git
+3.  Copy and paste the relevant files in NAMD-REST into NAMD_2.10_Source
+4.  Compile NAMD
