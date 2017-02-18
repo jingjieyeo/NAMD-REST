@@ -5,3 +5,5 @@ REST (Replica Exchange Solute Tempering) Implementation in NAMD. The implementat
 This work has been published in [Compute. Phys. Comm.](http://dx.doi.org/10.1016/j.cpc.2015.08.030)
 
 > A generic implementation of replica exchange with solute tempering (REST2) algorithm in NAMD for complex biophysical simulations. Sunhwan Jo and Wei Jiang. Computer Physics Communications. 2015. 197. 304-311. DOI:10.1016/j.cpc.2015.08.030
+
+Please read Compilation Instructions for details on how to merge this git with NAMD_2.10_Source
