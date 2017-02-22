@@ -7,7 +7,7 @@ This work has been published in [Compute. Phys. Comm.](http://dx.doi.org/10.1016
 > A generic implementation of replica exchange with solute tempering (REST2) algorithm in NAMD for complex biophysical simulations. Sunhwan Jo and Wei Jiang. Computer Physics Communications. 2015. 197. 304-311. DOI:10.1016/j.cpc.2015.08.030
 
 # MODIFIED BY JNGJIE YEO #
-Please read "Compilation Instructions" provided in this git for details on how to merge this git with NAMD_2.10_Source.
+Please read "Compilation Instructions" provided in this repository for details on how to merge this repository with NAMD_2.10_Source.
 
 A slightly-modified "rest2_remd.namd" has been provided to enable users who are familiar with NAMD's default "replica.namd" to run REST2 in a similar manner.
 
