@@ -13,17 +13,27 @@ A slightly-modified "rest2_remd.namd" has been provided to enable users who are 
 
 # MAIN DIFFERENCE FROM STANDARD TEMPERATURE REMD IN NAMD #
 Other than the usual files for running temperature REMD, the user would need to provide an additional input file to specify the solute. This can be done by loading the desired .pdb file into VMD and do:
+
 set sel [atomselect top "protein"]
+
 $sel set beta 1.0
+
 set sel [atomselect top "all not protein"]
+
 $sel set beta 0.0
+
 set sel [atomselect top "all"]
+
 $sel writepdb spt.pdb
 
 In the "rest2_base.namd" file, include the following commands:
+
 spt						on
+
 sptCol					B
+
 sptFile					input/spt.pdb
+
 sptScaleAll				no
 
 For more details, simply refer to the examples provided in this git. It is also highly recommended to be familiar with running plain vanilla temperature REMD prior to attempting REST2.
