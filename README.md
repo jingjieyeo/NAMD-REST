@@ -26,6 +26,8 @@ set sel [atomselect top "all"]
 
 $sel writepdb spt.pdb
 
+
+
 In the "rest2_base.namd" file, include the following commands:
 
 spt						on
